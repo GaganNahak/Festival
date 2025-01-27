@@ -1,6 +1,6 @@
 const sharebut=document.getElementById("share-bt")
 const userInput=document.getElementById("inputva").value;
-const mes=`some thing from+ ${userInput}`
+const mes=`some thing from `+ userInput
 sharebut.addEventListener("click",()=>{
     if(navigator.share){
        navigator.share({
